@@ -1,39 +1,17 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Brandon Dean by deanbr</title>
+---
+layout: home
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Brandon Dean</h1>
-        <p></p>
-
-
-        <p class="view"><a href="https://github.com/deanbr">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum a erat non ullamcorper. Phasellus ac ante commodo metus lacinia congue et in purus. Sed vel laoreet orci. Ut vitae efficitur arcu. Morbi turpis dolor, efficitur id pretium in, volutpat sit amet orci. Sed maximus felis ut urna interdum convallis. Quisque aliquet sapien et augue ultricies, at suscipit felis laoreet. Suspendisse a dictum lectus. Suspendisse in odio facilisis, porta elit id, rhoncus arcu. Cras sit amet leo suscipit, tincidunt ligula in, imperdiet arcu. Maecenas vulputate vitae metus sed lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus et erat sed augue porttitor euismod vel nec sem.</p>
-
-<p>Aliquam quis vehicula massa. Mauris volutpat est non ex facilisis commodo. Nam nunc odio, volutpat eget efficitur eu, convallis et urna. Aliquam cursus ante vel magna interdum lobortis. Donec condimentum erat vel enim ornare, quis consequat augue sollicitudin. Nullam quis facilisis turpis, consectetur dapibus mi. Etiam interdum enim id aliquam pulvinar. Nulla mauris justo, euismod et molestie sed, ultrices id nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sit amet accumsan turpis. Sed ut ultrices nibh. Sed nec mollis mi.</p>
-
-<p>Nullam tempus enim sed dictum tincidunt. Integer pharetra turpis posuere ipsum feugiat, id viverra ante fringilla. Nulla odio purus, lacinia vitae turpis at, suscipit blandit leo. Duis ut nisl dapibus, elementum nisl id, sodales magna. Fusce sit amet purus nulla. Fusce vitae urna egestas, porttitor lectus in, vulputate ante. Pellentesque lobortis purus eu nibh interdum, ac tempor massa ultrices. Nullam maximus vitae nulla eu pellentesque.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>I'm <strong>{{ site.author }}</strong>, a Software Engineer.</h3>
+	  <h3>I love all things computer science and maths.</h3>
+	  <h3>Have a look at some of my working <a href="{{ site.baseurl }}/projects.html"> projects</a>.</h3>
+	  <h3>For more check out my academic &amp; professional <a href="http://biomadeira.github.io/vitae">Resume</a>.</h3>
+	  <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>
