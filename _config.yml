@@ -11,17 +11,17 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl:
+url: http://deanbr.github.io/
+baseurl: deanbr.io
 title: Brandon Dean
 author: Brandon Dean
-description: Personal site
+description: Brandon Dean
 avatar: profile.png
 email: deanbr@vt.edu
 github: deanbr
-twitter: username
+twitter: # username
 linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+stackoverflow: #username   #e.g: users/2735833/proton1h1
 google_analytics: UA-69391421-1
 
 # needed for travis-ci build
