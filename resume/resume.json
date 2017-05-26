@@ -1,0 +1,122 @@
+{
+  "basics": {
+    "name": "Brandon Dean",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "deanbr@vt.edu",
+    "phone": "(804) 385-6499",
+    "website": "deanbr.io",
+    "summary": "",
+    "location": {
+      "address": "680 Ala Moana Blvd. Apt 308",
+      "postalCode": "96813",
+      "city": "Honolulu",
+      "countryCode": "US",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": "deanbr.io"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ikayzo",
+      "position": "Software Engineer",
+      "website": "ikayzo.com",
+      "startDate": "November 2015",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Managed & engineered an ad management and delivery platform extension for Adstream's Japanese market.",
+        "Designed & developed a web-app for Higa Insurance's taxi auto-insurance management, working with Angular 2 on the front-end and Rails server-side.",
+        "Worked with an international team as a developer on a student loan refinancing Rails and React application for DRB.  ",
+        "Collaborated closely with the UH Foundation on their online donations application to bring their platform up-to-date and optimize the giving process. ",
+        "Worked on project proposals, created task estimates in-line with our agile dev practices, and headed design iterations in both project management and development capacities."
+      ]
+    },
+    {
+      "company": "IBM",
+      "position": "Extreme Blue Technical Intern",
+      "website": "",
+      "startDate": "May 2013",
+      "endDate": "August 2013",
+      "summary": "",
+      "highlights": [
+        "Developed an Android application with a team of interns using agile development practices.",
+        "Created proposals and pitched to IBM executives on a weekly basis.",
+        "Worked with JavaScript, Grails, Vert.x, HTML 5, PhoneGap, and Git, and implemented REST interfaces  to design and create the project.",
+        "Co-authored four patent submissionsinternally, of which all were published through IBM."
+      ]
+    },
+    {
+      "company": "Virginia Interactive",
+      "position": "Software Development Intern",
+      "website": "https://vi.virginiainteractive.org/vi/",
+      "startDate": "May 2010",
+      "endDate": "August 2012",
+      "summary": "",
+      "highlights": [
+        "Pass the Past and Master the Math: Released both as iOS apps, written in Objective-C, as award- winning apps for the Virginia DOE.",
+        "Online Subscriber Agreement Application: Created a comprehensive online web app in ASP.NET using  C# as part of a goal to increase e-government operations."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Virginia Tech",
+      "area": "Computer Science with a Minor in Mathematics",
+      "studyType": "B.S. ",
+      "startDate": "August 2011",
+      "endDate": "May 2015",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Computer Science Academic Scholarship recipient for 2012, 2013, 2014",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Dean’s List for Fall 2011, Spring 2012, Fall 2012, Spring 2013, Spring 2015",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Education Abroad at City University of Hong Kong, Fall 2013",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "publications": [],
+  "skills": [],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner"
+    },
+    {
+      "language": "",
+      "fluency": ""
+    }
+  ],
+  "interests": [],
+  "references": []
+}
