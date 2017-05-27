@@ -36,3 +36,11 @@
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
 }
+
+.copyright {
+  text-align: center;
+}
+
+.copyright-container {
+  margin: auto;
+}
