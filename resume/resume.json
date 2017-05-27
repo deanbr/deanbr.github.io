@@ -49,7 +49,7 @@
         "Developed an Android application with a team of interns using agile development practices.",
         "Created proposals and pitched to IBM executives on a weekly basis.",
         "Worked with JavaScript, Grails, Vert.x, HTML 5, PhoneGap, and Git, and implemented REST interfaces  to design and create the project.",
-        "Co-authored four patent submissionsinternally, of which all were published through IBM."
+        "Co-authored four patent submissions internally, of which all were published through IBM."
       ]
     },
     {
@@ -75,6 +75,15 @@
       "endDate": "May 2015",
       "gpa": "",
       "courses": []
+    },
+    {
+      "institution": "City University of Hong Kong",
+      "area": "Education Abroad",
+      "studyType": "Fall 2013",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [
@@ -86,12 +95,6 @@
     },
     {
       "title": "Dean’s List for Fall 2011, Spring 2012, Fall 2012, Spring 2013, Spring 2015",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    },
-    {
-      "title": "Education Abroad at City University of Hong Kong, Fall 2013",
       "date": "",
       "awarder": "",
       "summary": ""
