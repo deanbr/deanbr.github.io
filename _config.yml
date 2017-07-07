@@ -28,7 +28,10 @@ permalink: pretty
 social:
   - title: github
     url: https://github.com/deanbr/
+    source: ../img/icons/github_transparent.png
   - title: linkedin
     url: https://www.linkedin.com/in/brandon-dean-4772a067/
+    source: ../img/icons/linkedin_transparent.png
   - title: resume
     url: https://drive.google.com/uc?export=download&amp;id=0B9X7rJJ_usgQazNkUXFjV1FBUVE
+    source: ../img/icons/resume_transparent.png
