@@ -11,7 +11,7 @@ copyright: '2017 Brandon Dean'
 credits: ''
 
 # Google tracking id
-google-tracking-id: "UA-91627328-1"
+google_tracking_id: "UA-102223117-1"
 
 # ----------------------- #
 #    Jekyll & Plugins     #
