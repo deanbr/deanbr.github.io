@@ -1,0 +1,228 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Brandon Dean}
+\newcommand{\CVTitle}{Brandon Dean's Resume}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{deanbr.io}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+\href{https://www.google.com/maps/place/17+Prime+Avenue,+Springfield,+Pennsylvania+10111,+USA}
+{Software Engineer}
+\par
+\href{mailto:brdean77@gmail.com}
+{brdean77@gmail.com}
+\,\SubBulletSymbol\,
+(804)\,385-6499
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+Java,
+Ruby on Rails,
+TypeScript,
+Angular 2/4/5,
+JavaScript (ES6),
+React,
+HTML / CSS,
+Bootstrap,
+Foundation,
+C,
+Swift
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Experience}
+{Experience}
+{PDF:Experience}
+
+\Entry
+{\textbf{Ikayzo}},
+Software Engineer
+\hfill
+\DatestampYMD{2015}{11}{09} --
+Present
+
+\Gap
+\BulletItem
+Managed \& engineered an ad management and delivery platform extension for Adstream's Japanese market.
+\BulletItem
+Designed \& developed a web-app for Higa Insurance's taxi auto-insurance management, working with Angular 2 on the front-end and Rails server-side.
+\BulletItem
+Worked with an international team as a developer on a student loan refinancing Rails and React application for DRB.
+\BulletItem
+Collaborated closely with the UH Foundation on their online donations application to bring their platform up-to-date and optimize the giving process.
+\BulletItem
+Worked on project proposals, created task estimates in-line with our agile dev practices, and headed design iterations in both project management and development capacities.
+
+\BigGap
+\Entry
+{\textbf{IBM}},
+Extreme Blue Technical Intern
+\hfill
+\DatestampYMD{2013}{05}{09} --
+\DatestampYMD{2013}{08}{09}
+
+\Gap
+\BulletItem
+Developed an Android application with a team of interns using agile development practices.
+\BulletItem
+Created proposals and pitched to IBM executives on a weekly basis.
+\BulletItem
+Worked with JavaScript, Grails, Vert.x, HTML 5, PhoneGap, and Git, and implemented REST interfaces to design and create the project.
+\BulletItem
+Co-authored four patent submissions internally, of which all were published through IBM.
+
+\BigGap
+\Entry
+{\textbf{Virginia Interactive}},
+Software Developer Intern
+\hfill
+\DatestampYMD{2010}{05}{09} --
+\DatestampYMD{2012}{08}{09}
+
+\Gap
+\BulletItem
+Pass the Past and Master the Math: Released both as iOS apps, written in Objective-C, as award-winning apps for the Virginia DOE.
+\BulletItem
+Online Subscriber Agreement Application: Created a comprehensive online web app in ASP.NET using C# as part of a goal to increase e-government operations.
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://www.example.com/my-college}
+{\textbf{Virginia Tech}},
+
+\Gap
+\BulletItem
+B.S. Computer Science with a Minor in Mathematics
+\hfill
+\DatestampYMD{2011}{08}{15} --
+\DatestampYMD{2015}{05}{15}
+
+\BigGap
+\Entry
+\href{http://www.example.com/my-college}
+{\textbf{City University of Hong Kong}},
+
+\Gap
+\BulletItem
+Fall 2013 - Education Abroad
+\hfill
+\DatestampYMD{2013}{08}{15} --
+\DatestampYMD{2013}{12}{15}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Awards}
+{Awards}
+{PDF:Awards}
+
+\BulletItem
+Computer Science Academic Scholarship recipient for 2012, 2013, 2014
+\Gap
+\BulletItem
+Dean’s List for Fall 2011, Spring 2012, Fall 2012, Spring 2013, Spring 2015
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Languages %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+English
+\textit{(Native)},
+Japanese
+\textit{(Beginner)},
+Spanish
+\textit{(Beginner)}
+
+\end{Body}
+
+
+\end{document}

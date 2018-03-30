@@ -6,7 +6,7 @@
     "email": "deanbr@vt.edu",
     "phone": "(804) 385-6499",
     "website": "deanbr.io",
-    "summary": "",
+    "summary": "test",
     "location": {
       "address": "680 Ala Moana Blvd. Apt 308",
       "postalCode": "96813",
@@ -114,10 +114,6 @@
     {
       "language": "Spanish",
       "fluency": "Beginner"
-    },
-    {
-      "language": "",
-      "fluency": ""
     }
   ],
   "interests": [],
