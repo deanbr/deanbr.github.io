@@ -286,7 +286,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 \newlength{\BulletItemIndentWidth}
 %
 \newcommand{\BulletItem}
-{\par\vspace{0\baselineskip}%
+{\par\vspace{0.25\baselineskip}%
 \savebox{\BulletItemIndentBox}{\hspace{1.5mm}\BulletSymbol\hspace{1.5mm}}%
 \settowidth{\BulletItemIndentWidth}{\usebox{\BulletItemIndentBox}}%
 \parshape 2%
