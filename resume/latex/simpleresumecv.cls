@@ -93,6 +93,9 @@ includefoot]{geometry}
 % Current date and time.
 \RequirePackage{datetime2}
 
+% Remove justified text
+\usepackage[document]{ragged2e}
+
 % Timestamp.
 \newcommand{\Timestamp}{{\DTMnow}}
 
