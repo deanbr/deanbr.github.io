@@ -1,0 +1,243 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Brandon Dean}
+\newcommand{\CVTitle}{Brandon Dean's Resume}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{deanbr.io}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{Brandon Dean}
+
+\begin{SubTitle}
+{Software Engineer}
+\par
+{brdean77@gmail.com}
+-
+(804)\,385-6499
+-
+{\url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\begin{large}
+\Entry
+Java,
+Ruby on Rails,
+TypeScript,
+Angular 2/4/5,
+JavaScript (ES6),
+React,
+HTML / CSS,
+\Gap
+Bootstrap,
+Foundation,
+C,
+Swift
+\end{large}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\BigGap
+\Section
+{Experience}
+{Experience}
+{PDF:Experience}
+
+\Entry
+\begin{large}
+{\textbf{Ikayzo}},
+Software Engineer
+\hfill
+\DatestampYMD{2015}{11}{09} --
+Present
+
+\Gap
+\BulletItem
+Managed \& engineered an ad management and delivery platform extension for Adstream's Japanese market.
+\BulletItem
+Designed \& developed a web-app for Higa Insurance's taxi auto-insurance management, working with Angular 2 on the front-end and Rails server-side.
+\BulletItem
+Worked with an international team as a developer on a student loan refinancing Rails and React application for DRB.
+\BulletItem
+Collaborated closely with the UH Foundation on their online donations application to bring their platform up-to-date and optimize the giving process.
+\begingroup % Needed to force word wrap on last bullet point. Refer to sample in the "Journals" section.
+\BulletItem
+Worked on project proposals, created task estimates in-line with our agile dev practices, and headed design iterations in both project management and development capacities.
+\end{large}
+
+\BigGap
+\BigGap
+
+\Entry
+\begin{large}
+{\textbf{IBM}},
+Extreme Blue Technical Intern
+\hfill
+\DatestampYMD{2013}{05}{09} --
+\DatestampYMD{2013}{08}{09}
+
+\Gap
+\BulletItem
+Developed an Android application with a team of interns using agile development practices.
+\BulletItem
+Created proposals and pitched to IBM executives on a weekly basis.
+\BulletItem
+Worked with JavaScript, Grails, Vert.x, HTML 5, PhoneGap, and Git, and implemented REST interfaces to design and create the project.
+\begingroup % Needed to force word wrap on last bullet point. Refer to sample in the "Journals" section.
+\BulletItem
+Co-authored four patent submissions internally, of which all were published through IBM.
+\end{large}
+
+\BigGap
+\BigGap
+
+\Entry
+\begin{large}
+{\textbf{Virginia Interactive}},
+Software Developer Intern
+\hfill
+\DatestampYMD{2010}{05}{09} --
+\DatestampYMD{2012}{08}{09}
+
+\Gap
+
+\BulletItem
+\begingroup % Needed to force word wrap on last bullet point. Refer to sample in the "Journals" section.
+Pass the Past and Master the Math: Released both as iOS apps, written in Objective-C, as award-winning apps for the Virginia DOE.
+\end{large}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\BigGap
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\begin{large}
+\Entry
+{\textbf{Virginia Tech}},
+
+\Gap
+B.S. Computer Science with a Minor in Mathematics
+\hfill
+\DatestampYMD{2011}{08}{15} --
+\DatestampYMD{2015}{05}{15}
+
+\BigGap
+\Entry
+{\textbf{City University of Hong Kong}},
+
+\Gap
+Fall 2013 - Education Abroad
+\hfill
+\DatestampYMD{2013}{08}{15} --
+\DatestampYMD{2013}{12}{15}
+\end{large}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\BigGap
+\Section
+{Awards}
+{Awards}
+{PDF:Awards}
+
+\begin{large}
+Computer Science Academic Scholarship recipient for 2012, 2013, 2014
+\Gap
+Dean’s List for Fall 2011, Spring 2012, Fall 2012, Spring 2013, Spring 2015
+\end{large}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Languages %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\BigGap
+\Section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+\begin{large}
+English
+\textit{(Native)},
+Japanese
+\textit{(Beginner)},
+Spanish
+\textit{(Beginner)}
+\end{large}
+
+\end{Body}
+
+
+\end{document}
